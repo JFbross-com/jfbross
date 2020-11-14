@@ -19,9 +19,9 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
             </button>
             <a className="navbar-brand page-scroll" href="#page-top">
-              
-              <img src="img/logo/logo.jpg" width="100" height="50"/>
-          </a>{" "}
+              {/* JFBross s.r.o */}
+              <img src="img/logo/logo.jpg" alt="" width="100" height="50"/>
+            </a>
           </div>
 
           <div
