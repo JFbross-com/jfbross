@@ -8,7 +8,7 @@ export class Services extends Component {
           <div className="section-title">
             <h2>Our Services</h2>
             <p>
-              We Have expreineces in this services with the best price and aquality.
+              We Have expreineces in this services with the Best price and Best aquality.
             </p>
           </div>
           <div className="row">
