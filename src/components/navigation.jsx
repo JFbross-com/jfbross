@@ -21,6 +21,7 @@ export class Navigation extends Component {
             <a className="navbar-brand page-scroll" href="#page-top">
               {/* JFBross s.r.o */}
                  {/* this is new version   */}
+                 {/* this is second version   */}
               <img src="img/logo/logo.jpg" alt="" width="100" height="50"/>
             </a>
           </div>
