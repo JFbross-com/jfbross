@@ -83,6 +83,7 @@ export class Contact extends Component {
                   <span>
                     <i className="fa fa-envelope-o"></i> Email
                   </span>{" "}
+                  <a href="mailto: Parham@yahoo.com" > {this.props.email}</a>
                   {this.props.data ? this.props.data.email : "loading"}
                 </p>
               </div>
