@@ -21,7 +21,15 @@ export class about extends Component {
                   </div>
                   <div className="col-lg-6 col-sm-6 col-xs-12">
                     <ul>
+                    <h3>Superior Service</h3>
                     {this.props.data ? this.props.data.Why2.map((d, i) => <li  key={`${d}-${i}`}> {d}</li>) : 'loading'}
+
+                    </ul>
+                  </div>
+                  <div className="col-lg-6 col-sm-6 col-xs-12">
+                    <ul>
+                    <h3>Superior Service</h3>
+                    {this.props.data ? this.props.data.Why3.map((d, i) => <li  key={`${d}-${i}`}> {d}</li>) : 'loading'}
 
                     </ul>
                   </div>
