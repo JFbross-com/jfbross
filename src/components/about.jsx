@@ -15,6 +15,7 @@ export class about extends Component {
                 <div className="list-style">
                   <div className="col-lg-6 col-sm-6 col-xs-12">
                     <ul>
+                      <h3>Competent Professionals</h3>
                       {this.props.data ? this.props.data.Why.map((d, i) => <li  key={`${d}-${i}`}>{d}</li>) : 'loading'}
                     </ul>
                   </div>

@@ -71,19 +71,19 @@ export class Contact extends Component {
                 </p>
               </div>
               <div className="contact-item">
-                <p>
+                {/* <p>
                   <span>
                     <i className="fa fa-phone"></i> Phone
                   </span>{" "}
                   {this.props.data ? this.props.data.phone : "loading"}
-                </p>
+                </p> */}
               </div>
               <div className="contact-item">
                 <p>
                   <span>
                     <i className="fa fa-envelope-o"></i> Email
                   </span>{" "}
-                  <a href="mailto: Parham@yahoo.com" > {this.props.email}</a>
+                  <a href="mailto: info@jfbross.com" > {this.props.email}</a>
                   {this.props.data ? this.props.data.email : "loading"}
                 </p>
               </div>
@@ -91,7 +91,7 @@ export class Contact extends Component {
             <div className="col-md-12">
               <div className="row">
                 <div className="social">
-                  <ul>
+                  {/* <ul>
                     <li>
                       <a
                         href={this.props.data ? this.props.data.facebook : "/"}
@@ -109,7 +109,7 @@ export class Contact extends Component {
                         <i className="fa fa-youtube"></i>
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>
@@ -118,7 +118,7 @@ export class Contact extends Component {
         <div id="footer">
           <div className="container text-center">
             <p>
-              &copy; 2020 JFbross S.R.O
+              &copy; 2021 JFbross S.R.O
             </p>
           </div>
         </div>
