@@ -21,25 +21,30 @@
             "Providing value through straightforward commissions and added services."
         ]
     },
-    "Services": [{
+    "Services": [
+        {
             "icon": "fa fa-cutlery",
             "name": "Foods",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "text": "",
+            "href" : "http://www.google.com" 
         },
         {
             "icon": "fa fa-building",
             "name": "Constructions",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "text": "",
+            "href" : "http://www.google.com" 
         },
         {
             "icon": "fa fa-laptop",
             "name": "Computer and Developer",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "text": "",
+            "href" : "http://www.google.com" 
         },
         {
             "icon": "fa fa-Home",
             "name": "Reallity",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "text": "",
+            "href" : "http://www.google.com" 
         }
         
         

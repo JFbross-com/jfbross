@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+// import { Link } from 'react-router-dom'
 
 export class Services extends Component {
   render() {
@@ -16,11 +17,18 @@ export class Services extends Component {
               ? this.props.data.map((d, i) => (
                   <div  key={`${d.name}-${i}`} className="col-md-3">
                     {" "}
-                    <i className={d.icon}></i>
+               <a href={d.href}  >
+
+                    <i  className={d.icon}></i>
+               
                     <div className="service-desc">
                       <h3>{d.name}</h3>
+                      
                       {/* <p>{d.text}</p> */}
+                      
+                      
                     </div>
+                    </a> 
                   </div>
                 ))
               : "loading"}
