@@ -40,7 +40,19 @@ export class Contact extends Component {
                         />
                         <p className="help-block text-danger"></p>
                       </div>
-                    </div>
+                    </div > 
+                  </div>
+                  <div className="col-md-6">
+                  <div class="ui fluid search selection dropdown">
+                  <i class="dropdown icon"></i>
+                  <div class="default text">Select Country</div>
+                  <div class ="menu">
+                  <i class="af flag"></i>
+                    <div class="item" data-value="af">
+                      
+                      </div>
+                      </div>
+                  </div>
                   </div>
                   <div className="form-group">
                     <textarea
